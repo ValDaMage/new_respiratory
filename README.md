@@ -10,23 +10,23 @@ Aplicația:
 
 
 
-&nbsp;	- preia dinamic un citat random de la un API extern (exemplu generic de API de citate);
+ 	- preia dinamic un citat random de la un API extern (exemplu generic de API de citate);
 
 
 
-&nbsp;	- afișează citatul și autorul în interfață;
+ 	- afișează citatul și autorul în interfață;
 
 
 
-&nbsp;	- afișează metadate într-un tabel (ID, categorie, lungime citat);
+ 	- afișează metadate într-un tabel (ID, categorie, lungime citat);
 
 
 
-&nbsp;	- permite filtrarea citatelor după un cuvânt cheie introdus de utilizator;
+ 	- permite filtrarea citatelor după un cuvânt cheie introdus de utilizator;
 
 
 
-&nbsp;	- tratează erorile și le afișează atât în consolă, cât și în interfață.
+ 	- tratează erorile și le afișează atât în consolă, cât și în interfață.
 
 
 
@@ -36,27 +36,27 @@ Tehnologii folosite:
 
 
 
-&nbsp;	- HTML – structură pentru interfață și elementele dinamice din DOM
+ 	- HTML – structură pentru interfață și elementele dinamice din DOM
 
 
 
-&nbsp;	- CSS – stilizare și organizare vizuală a componentelor
+ 	- CSS – stilizare și organizare vizuală a componentelor
 
 
 
-&nbsp;	- JavaScript (ES6+) – logica aplicației, cereri către API, manipulare DOM
+ 	- JavaScript (ES6+) – logica aplicației, cereri către API, manipulare DOM
 
 
 
-&nbsp;	- async/await pentru gestionarea cererilor asincrone
+ 	- async/await pentru gestionarea cererilor asincrone
 
 
 
-&nbsp;	- blocuri try/catch pentru tratarea erorilor
+ 	- blocuri try/catch pentru tratarea erorilor
 
 
 
-&nbsp;	- console.log() pentru urmărirea fluxului de execuție
+ 	- console.log() pentru urmărirea fluxului de execuție
 
 
 
@@ -64,43 +64,43 @@ Tehnologii folosite:
 
 Cum funcționează aplicația:
 
-&nbsp;	- Utilizatorul poate introduce opțional un cuvânt cheie în câmpul de input (filtru).
+ 	- Utilizatorul poate introduce opțional un cuvânt cheie în câmpul de input (filtru).
 
 
 
-&nbsp;	- La apăsarea butonului „Afișează un citat random”, aplicația trimite o cerere către API.
+ 	- La apăsarea butonului „Afișează un citat random”, aplicația trimite o cerere către API.
 
 
 
-&nbsp;	- Dacă răspunsul este valid:
+ 	- Dacă răspunsul este valid:
 
 
 
-&nbsp;	- citatul și autorul sunt afișate în zona principală;
+ 	- citatul și autorul sunt afișate în zona principală;
 
 
 
-&nbsp;	- tabelul de metadate este completat cu ID-ul, categoria și lungimea citatului;
+ 	- tabelul de metadate este completat cu ID-ul, categoria și lungimea citatului;
 
 
 
-&nbsp;	- eventualele mesaje de eroare sunt ascunse.
+ 	- eventualele mesaje de eroare sunt ascunse.
 
 
 
-&nbsp;	- Dacă apare o eroare (API indisponibil, răspuns invalid etc.):
+ 	- Dacă apare o eroare (API indisponibil, răspuns invalid etc.):
 
 
 
-&nbsp;	- în consolă este afișat un mesaj detaliat de eroare;
+ 	- în consolă este afișat un mesaj detaliat de eroare;
 
 
 
-&nbsp;	- în interfață este afișat un mesaj clar pentru utilizator;
+ 	- în interfață este afișat un mesaj clar pentru utilizator;
 
 
 
-&nbsp;	- conținutul citatului și tabelul sunt ascunse.
+ 	- conținutul citatului și tabelul sunt ascunse.
 
 
 
@@ -136,13 +136,21 @@ Structura proiectului:
 
 
 
-&nbsp;	- index.html – structura paginii și elementele UI
+ 	- index.html – structura paginii și elementele UI
 
 
 
-&nbsp;	- style.css – stilizarea interfeței și a componentelor
+ 	- style.css – stilizarea interfeței și a componentelor
 
 
 
-&nbsp;	- script.js – logica aplicației, cereri către API, manipulare DOM
+ 	- script.js – logica aplicației, cereri către API, manipulare DOM
+
+
+
+
+
+
+
+(Actualizare pentru diferențierea branch-urilor.)
 
