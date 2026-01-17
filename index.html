@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Random Quote Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Random Quote Dashboard</h1>
+    <p class="description">This interface fetches a random motivational quote from an external API.</p>
+
+    <!-- Interaction elements -->
+    <input type="text" id="searchInput" placeholder="Filter by keyword...">
+    <button id="btn">Get Random Quote</button>
+
+    <!-- Error message -->
+    <p id="error" class="hidden"></p>
+
+    <!-- Visual + Textual info -->
+    <div id="quote-box" class="hidden">
+        <span id="badge" class="badge">QUOTE</span>
+        <p id="quote-text"></p>
+        <h3 id="quote-author"></h3>
+    </div>
+
+    <!-- Table for metadata -->
+    <table id="meta-table" class="hidden">
+        <tr>
+            <th>ID</th>
+            <th>Category</th>
+            <th>Length</th>
+        </tr>
+        <tr>
+            <td id="meta-id"></td>
+            <td id="meta-category"></td>
+            <td id="meta-length"></td>
+        </tr>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
